@@ -1,0 +1,134 @@
+
+body{background-color: #eee;
+    margin-top: 3%;
+}
+
+#price{float: right;
+    margin-right: 2%;
+    width: 10%;
+}#works{margin-right: 2%;
+    float: right;
+    width: 10%;
+}
+
+#feature{float: right;
+    margin-right: 2%;
+    width: 10%;
+}
+img{width: 20%;}
+h2{text-align: center;
+    margin-bottom: 2%;
+}
+form{text-align: center;
+    width: 100%;
+}
+input{width: 20%;
+    margin-bottom: .5%;
+}
+div{text-align: center;
+    margin-top:2%;
+
+}
+   button:hover{background-color: orange;
+}
+button{background-color: gold;
+    text-align: center;
+    margin-bottom: 2%;
+    width: 120px;
+    border-style: solid;
+    padding: 1%;
+    border-radius: 5%;
+    height: 70px;
+
+}
+#but{background-color: gold;
+    text-align: center;
+    width: 180px;
+    border-style: solid;
+    border-radius: 5%;
+    font-size: 18px;
+    padding: 1.2%;
+    font-style: normal;
+    height: 10;
+    
+}
+#but:hover{background-color: orange;
+}
+
+
+
+.paragraph{text-align: left;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    
+}
+.image{width:15%
+    ; margin-bottom: 10%;
+    clear:left;
+}
+#pic{text-align: left;
+    margin-top: -13.5%;
+    float:right;
+    margin-right: 30%;
+}
+#pa{text-align: left;
+    float: right;
+     margin-right:19%;
+     margin-top:-13.5%;
+    }
+#ca{text-align:left;
+    float: right;
+    margin-right: 20%;
+    margin-top: -13.5%;
+}
+h4,p{display: inline;
+
+}
+h4{font-size: 150%;
+}
+
+
+   
+   
+ #first{list-style: none;
+    text-align: center;
+    float: right;
+    margin-right: 60%;
+    border: 50%;
+    border-style: solid;
+    border-width: 2PX;
+    background-size: 10px;
+    padding: 3%;
+    border-radius: 3%;
+}
+
+#second{list-style: none;
+    text-align: center;
+    float: right;
+    margin-right: -35%;
+    border: 5px;
+    border-style: solid;
+    border-width:2px;
+   border-radius: 3%;
+    padding: 3%;
+}
+
+#third{float: right;
+    list-style: none;
+    margin-right: -55%;
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    margin-bottom: 14%;
+    border-width: 2px;
+    padding: 3%;
+    border-radius: 3%;
+}
+*{box-sizing: border-box;
+}
+section{text-align: center;
+    margin-right: 20%;
+
+
+    
+}
