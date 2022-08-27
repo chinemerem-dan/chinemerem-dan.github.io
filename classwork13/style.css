@@ -1,28 +1,147 @@
+*{
+    box-sizing: content-box;
+    padding-bottom: 0%;
+    
+    
 
-body{background-color: rgb(55, 27, 55);
+}
+body{
+    background-color: rgb(86, 30, 86);
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    height:900px;
+overflow-y: visible;
+
+    
+  
 }
 
+input{
+    width: 50%;
+    position: relative;
+    left: 20%;
+    border-radius: 5%;
+    top: -10px;
+    
+}
+#im{
+    width: 1.5%;
+    border-radius: 5%;
+    
 
+}
+#qqe{
+    width: 1.3%;
+    margin-right: 20px;
+}
+#pp{position: relative;
+    left: 95%;
+    top: -55px
+}
+#samp{
+    width: 1.5%;
+    position: relative;
+    left: 17%;
+    top: 17px;
+}
+#search1{
+    width: 1.0%;
+    position: absolute;
+    left: 68%;
+    top: 22px;
+}
+#search2{
+    width: 1.0%;
+    position: absolute;
+    left: 66%;
+    top: 22px;
+}
+#di{
+    color: white;
+        margin-top: -60px
+}
+#sel{
+    position: absolute;
+    left: 11%;
+    background: none;
+    border: none;
+    top: 65px;
+    color: white;
+}
+#imm{
+    position: absolute;
+    left: 16.5%;
+    top: 55px;
+    width: 2%;
+}
+.ee{margin-right: 15px;
+    color: rgb(0, 0, 0);
 
-.first{color:rgb(176, 161, 161);
+}
+#po{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+hr{
+    padding: 0%;
+    margin: 0%;
+}
+p{
     font-size: 120%;
 }
-#select{position: absolute;
-    left: 15.2%;
-    top: 3.7%;
-    background: none;
+.ppp{
     color: white;
-    border: 0;
+    background-color: black;
+    padding: 10px;
+    height: 40px;
+    
 }
-    #seen{color: white;}
-    #image{position: absolute;
-        left: 20%;
-        top: 3.5%;
+.ppo{color: white;
     
-    }
-    input{ position: relative;
-        top: -850px;
-    }
- 
+    position: relative;
+    top: 5px;
+    left: 60%
+}
+a:link{
+    background-color: blue;
+    color: white;
+}
+fieldset{
+    position:relative;
+    top: -901px;
+    height: 800px;
+    background-color: white;
+    width: 78%;
+    left: 20%;
+    height: 812px;
     
+
+}
+.col{
+    font-size: 150%;
     
+}
+.pii{
+    border: 1px;
+    border-style: solid;
+    width: 15%;
+    position: relative;
+    left: 45%;
+    top: -43px;
+    border-radius: 5%;
+}
+.er{
+    margin-right: -12px;
+    position: relative;
+    top: -28px;
+    margin-left: -12px;
+}
+#sss{
+    width: 20%;
+    height: 50px;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius: 50px;
+}
