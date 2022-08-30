@@ -3,18 +3,16 @@
     padding-bottom: 0%;
     
     
-
 }
 body{
-    background-color: rgb(86, 30, 86);
+    background-color: #561e56;
     padding: 0%;
     margin: 0%;
     height: 100%;
-    height:900px;
-overflow-y: visible;
+width: 100%;
+overflow-x: hidden;
 
-    
-  
+
 }
 
 input{
@@ -22,7 +20,8 @@ input{
     position: relative;
     left: 20%;
     border-radius: 5%;
-    top: -10px;
+    top: 25px;
+    padding: 5px;
     
 }
 #im{
@@ -39,44 +38,72 @@ input{
     left: 95%;
     top: -55px
 }
+/*rad5*/
 #samp{
     width: 1.5%;
     position: relative;
-    left: 17%;
-    top: 17px;
+    left: 14.5%;
+    top:57px;
 }
+/*search icon*/
 #search1{
-    width: 1.0%;
+    width: 1.5%;
     position: absolute;
     left: 68%;
-    top: 22px;
+    top: 59.5px;
 }
 #search2{
-    width: 1.0%;
+    width: 1.5%;
     position: absolute;
     left: 66%;
-    top: 22px;
+    top: 60px;
+
 }
+/*online style*/
+.online{
+    width: 2%;
+    position: relative;
+    left: 97%;
+    top: -1px;
+}
+/*question mark icon heading*/
+
+/*rad5*/
 #di{
     color: white;
-        margin-top: -60px
+        margin-top: 40px
 }
+nav{
+    position: relative;
+    top: -70px;
+    margin-left: 5px;
+}
+/*thead icon*/
+.thread{
+    position: relative;
+    top: 12px;
+}
+
 #sel{
     position: absolute;
     left: 11%;
     background: none;
     border: none;
-    top: 65px;
+    top: 105px;
     color: white;
 }
+/*writing icon*/
 #imm{
     position: absolute;
     left: 16.5%;
-    top: 55px;
+    top: 97px;
     width: 2%;
 }
 .ee{margin-right: 15px;
     color: rgb(0, 0, 0);
+    width: 1.5%;
+    position: relative;
+    top: 5px;
 
 }
 #po{
@@ -88,13 +115,18 @@ hr{
     margin: 0%;
 }
 p{
-    font-size: 120%;
+    font-size: 100%;
 }
 .ppp{
     color: white;
     background-color: black;
-    padding: 10px;
-    height: 40px;
+    padding-bottom: 30px;
+    height: 10px;
+    position: relative;
+    top: -132px;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
     
 }
 .ppo{color: white;
@@ -104,22 +136,25 @@ p{
     left: 60%
 }
 a:link{
-    background-color: blue;
-    color: white;
+
+color:blue;
 }
 fieldset{
     position:relative;
-    top: -901px;
-    height: 800px;
+    top: -865px;
+    height: 668px;
     background-color: white;
     width: 78%;
     left: 20%;
-    height: 812px;
     
 
 }
+h2{
+    position: relative;
+    top: -50px;
+}
 .col{
-    font-size: 150%;
+    font-size: 140%;
     
 }
 .pii{
@@ -130,13 +165,9 @@ fieldset{
     left: 45%;
     top: -43px;
     border-radius: 5%;
+
 }
-.er{
-    margin-right: -12px;
-    position: relative;
-    top: -28px;
-    margin-left: -12px;
-}
+/*select button*/
 #sss{
     width: 20%;
     height: 50px;
@@ -144,4 +175,530 @@ fieldset{
     border-bottom-left-radius: 50px;
     border-top-right-radius:50px ;
     border-bottom-right-radius: 50px;
+    position: relative;
+    top: 1.8px;
+    left: 35%;
+padding-left: 20px;
+
+
+}
+#ppp{
+    font-size: 80%;
+    position: relative;
+    top: -90px;
+    left: 3%;
+}
+/*blue powderblue background div*/
+#dia{
+    background-color: rgba(176, 224, 230, 0.422);
+    width: 62%;
+    position: relative;
+    top: -50px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-left: -12px;
+    height: 160px;
+}
+/*slackbot*/
+.slla{
+    position: relative;
+    top: -140px;
+    left: 8%;
+}
+
+
+.ec{
+    width: 2%;
+    margin-right: 20px;
+    position: relative;
+    top: 3px;
+
+}
+.ece{
+    width: 4%;
+    margin-left: 100px;
+    position: relative;
+    top: 4px;
+}
+
+.space{
+    position: relative;
+    top: -10px;
+}
+.ss{
+    position: relative;
+    top: -20px;
+}
+.spac{
+    position: relative;
+    top: -30px;
+}
+.spec{
+    position: relative;
+    top: -50px;
+}
+.lap{
+width:1.0%;
+position: relative;
+top: 5px;
+background-color: white;
+margin-right: 10px;
+}
+.lock{
+    width:1.5%; 
+}
+#sd{
+     border: none;
+     position: relative;
+     top: -2px;
+}
+
+.que{
+    position: relative;
+    left: 94%;
+    top: 58px;
+    width: 2%;
+}
+.boo{
+    width: 15%;
+    position: relative;
+    top: -20px;
+    left: 10%;
+
+    
+}
+.just{
+    width: 15%;
+    position: relative;
+    left: 10%;
+    top: -18px
+
+}
+.bw{
+    width: 22%;
+    position: relative;
+    top: -70px;
+    left: 60%;
+}
+.user{
+    width: 15%;
+    position: relative;
+    top: -25px;
+    left: 3%;
+}
+.pics{
+    position: relative;
+    border-width: 20%;
+    border: 1px;
+    top: -25px;
+    left: 45%;
+    border-style: solid;
+    width: 10%;
+    height: 30px;
+    border-color:rgba(0, 0, 0, 0.213);
+}
+.add{
+    position: relative;
+    border: 1px;
+    border-style: solid;
+    width: 22px;
+    left: 55%;
+    top: -60px;
+    border-color: rgba(0, 0, 0, 0.213);
+}
+.hd{
+    position: relative;
+    top: -25px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.hello{
+    position: relative;
+    top: -150px;
+    left: 9%;
+}
+.pen{
+    position: relative;
+    top: -160px;
+    left: 3%;
+}
+.custom{
+    position: relative;
+    left: 7%;
+    top: -200px;
+}
+.slack{
+    width: 7%;
+    position: relative;
+    left: 1%;
+    top: -215px;
+}
+.rer{
+    position: relative;
+    top: -280px;
+    left: 8%;
+}
+.op{
+    position: relative;
+    top: -290px;
+    left: 9%;
+}
+#color{
+    background-color: blue;
+}
+.weer{
+    position: relative;
+    top: -95px;
+    left: 2%;
+    
+}
+.shape{
+    width: 2%;
+    position: relative;
+    left: 3%;
+}
+.width{
+    position: relative;
+    left: 3%;
+    width: 3%;
+}
+.uba{
+    position: relative;
+    left: 6%;
+    top: -80px;
+}
+.advance{
+    position: relative;
+    left: 6%;
+    top: -90px;
+}
+#sub{
+    position: relative;
+    top: -40px;
+
+}
+.replies{
+    position: relative;
+    left: 4%;
+    top: -10px;
+    color: blue;
+}
+.last{
+    position: relative;
+    left: 17%;
+    top: -138px;
+}
+.learn{
+    position: relative;
+    top: -130px;
+
+}
+.rear{
+    position: relative;
+    top: -250px;
+    left: 6%;
+}
+
+#sect{position: relative;
+    border: 1px;
+    border-style: solid;
+    width: 40%;
+    left: 61%;
+    top: -655px;
+    border-color: rgba(0, 0, 0, 0.213);
+    height: 680px;   
+}
+#tree{
+    position: relative;
+    top: -20px;
+    left: 2%;
+}
+#stro{
+    font-size: 150%;
+}
+.key{
+    position: relative;
+    top: 5px;
+}
+.cancel{
+    position: relative;
+    left: 50%;
+}
+.replyh{
+    position:relative;
+    margin-left: 60px;
+    top: -30px;
+}
+.rope{position: relative;
+    top: -10px;
+
+}
+#every{
+    position: relative;
+    top: -25px;
+}
+.ago{position: relative;
+    left: 10%;
+    top: -100px;
+
+
+}
+.png{
+    position: relative;
+    top: -40px;
+}
+.bold{
+    position: relative;
+    font-size: 120%;
+    left: 10%;
+    top: -120px;
+}
+.img2{
+    width: 7%;
+    position: relative;
+    top: -120px;
+    left: 2%;
+
+}
+.seen{
+    position: relative;
+    top: -180px;
+    left: 12%;
+}
+.yes{
+    position: relative;
+    font-size: 120%;
+    left: 12%;
+    top: -200px;
+}
+#cut{
+    position: relative;
+    top: -70px;
+}
+.serr{
+     border: none;
+}
+.special{
+    border: 1px;
+    border-style: solid;
+    width: 87%;
+    height: 70px;
+    position: relative;
+    top: -210px;
+    left: 10%;
+    border-radius: 20px;
+    border-color:rgba(0, 0, 0, 0.213);
+}
+.index{position: relative;
+    top: -340px;
+    left:25%;
+    font-size: 120%;
+
+}
+.binary{position: relative;
+    top: -350px;
+    left: 25%;
+    color: rgba(0, 0, 0, 0.674);
+
+
+}
+.ol{
+    position: relative;
+    top: -270px;
+    left: 12%;
+}
+.speial{
+    border: 1px;
+    border-style: solid;
+    width: 87%;
+    height: 70px;
+    position: relative;
+    top: -345px;
+    left: 10%;
+    border-radius: 20px;
+    border-color:rgba(0, 0, 0, 0.213);
+}
+.idex{position: relative;
+    top: -60px;
+    left:18%;
+    font-size: 120%;
+
+}
+.bnary{position: relative;
+    top: -70px;
+    left: 18%;
+    color: rgba(0, 0, 0, 0.674);
+
+
+}
+.o{
+    position: relative;
+    top: 15px;
+    left: 2%;
+}
+.color{background-color: rgba(128, 128, 128, 0.099);
+
+    position: relative;
+    top: -15px;
+
+}
+.opt{
+    border: 1px;
+    border-style: solid;
+    width: 95%;
+    height: 150px;
+    position: relative;
+    top: -325px;
+    left: 3%;
+    border-radius: 20px;
+    border-color:rgba(0, 0, 0, 0.213);
+}
+.boo{
+    position: relative;
+    left: 2%;
+    width: 7%;
+    top: -4px;
+    
+
+}
+.italic{ position: relative;
+    left: 7%;
+    top: -4.0px;
+    width: 7%;
+
+
+}
+.slash{ position: relative;
+    left: 12%;
+    top: -3.0px;
+    width: 7%;
+
+}
+.order{ position: relative;
+    left: 20%;
+    top: -1.5px;
+    width: 7%;
+
+}
+.ul{
+    position: relative;
+    left: 27%;
+    top: -4.0px;
+    width: 7%;
+}
+
+
+.inbetween{
+    position: relative;
+    left: 33%;
+    top: -5.5px;
+    width: 7%;
+
+}
+.inbracket{position: relative;
+    left: 37%;
+    top: -5.5px;
+    width: 7%;
+
+}
+
+
+.saving{position: relative;
+    left: 41%;
+    top: -4px;
+    width: 8%;
+
+}
+#reply{
+    position: relative;
+    top: -20px;
+    border: none;
+    font-size: 120%;
+    left: 2%;
+}
+.opt2{
+    position: relative;
+    bottom: 15px;
+    left: 5%;
+}
+.addd{width: 7%;
+    position: relative;
+    bottom: 5px;
+
+}
+.video{
+    width: 7%;
+    position: relative;
+    bottom: 7px;
+    left: 3%;
+}
+.mic{
+    width: 7%;
+    position: relative;
+    left: 5%;
+    bottom: 2px;
+}
+.happy{position: relative;
+    left:7% ;
+    bottom: 5px;
+
+}
+
+.as{
+    font-size: 150%;
+    position: relative;
+    left: 9%;
+    bottom: 15px;
+}
+.aa{
+    position: relative;
+    left: 11%;
+    bottom: 5px;
+}
+.seda{
+    position: relative;
+    left: 45%;
+    bottom: 5px;
+}
+.ii{
+    border: 1px;
+    border-style: solid;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -10px;
+    left: 3%;
+}
+.wlock{
+    position: relative;
+    top: 5px;
+    width: 5%;
+}
+#wlack{
+    position: relative;
+    top:-60px;
+    font-size: 120%;
+    left: 10%;
+    color: rgba(0, 0, 0, 0.551);
+}
+.active{
+    color:rgb(161, 161, 126);
+    font-size: 150%;
+    position: relative;
+    top: -80px;
+    left: 10%;
+}
+.wind{
+    color: rgb(161, 161, 126);
+    font-size: 120%;
+    position: relative;
+    top: -110px;
+    left: 10%;
+}
+.can{
+    position: relative;
+    left: 98%;
+    width: 4.5%;
+    top: -130px;
 }

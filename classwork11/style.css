@@ -27,7 +27,7 @@ body{margin: 0;
     color: white;
     height: 100px;
    position: fixed;
-    padding-right: 115px;
+    padding-right: 125px;
 
 }
 #rest{float: right;
@@ -83,7 +83,7 @@ input{position: relative;
 #ide{float: right;
     margin-top: -750px;
     width: 600px;
-    height: 260px;
+    height: 270px;
     background-color: white;
     margin-right: 40%;
     padding: 10px;
@@ -102,18 +102,20 @@ height: 90px;
     margin-left: 85%;
     background-color: #2d472d;
     border-radius: 3px;
-    padding-bottom: -60px;
+    padding-bottom: -20px;
     height: 35px;
     width: 80px;
     color: white;
     font-size: 100%;
+    margin-top: -60px;
+    
 
 }
 
 #flow{float: right;
     margin-top: -450px;
     width: 600px;
-    height: 670px;
+    height: 720px;
     background-color: white;
     margin-right: 40%;
     margin-bottom: 10%;
@@ -123,15 +125,15 @@ height: 90px;
 #pic{width: 600px;}
 #logo{width: 50px;}
 #pa{float: right;
-    margin-right: 230px;
-    margin-top:-5px;
+    margin-right: 220px;
+    margin-top:-40px;
 }
 bold{font-size: 120%;
     color: rgba(18, 18, 195, 0.838);
 }
 #co{float: right;
-    margin-right: 480px;
-    margin-top: -40px;
+    margin-right: 460px;
+    margin-top:-40px;
     color: rgb(68, 68, 126);
 }
 #sh{float: right;
@@ -142,6 +144,7 @@ bold{font-size: 120%;
 }
 #li{margin-left: 1px;
     color: rgb(68,68,126);
+    margin-top:45px;
 
 }
 #pi{width: 30px;}
@@ -179,4 +182,8 @@ bold{font-size: 120%;
     margin-top: 120px;
 }
 ul{list-style:none;}
+.inn{
+    float: right;
+    margin-top: -40px;
+}
 
