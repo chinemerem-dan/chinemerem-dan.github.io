@@ -1,0 +1,393 @@
+/*base styles*/
+*{box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    
+}
+  
+
+#imm{width: 1.5%;
+    position: relative;
+    left: 4%;
+    top: -30px;
+    
+}
+
+#hud{font-size:250%;
+    position: relative;
+    left: 4%;
+    display:inline-block;
+    color: palevioletred;
+    top: -30px;
+}
+.str{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    display: block;
+    word-spacing: 2px;
+    position: relative;
+    left: 4%;
+    top: 40px;
+}
+
+#first{background-color: hsla(180, 56%, 72%, 0.391);
+    height:700px;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#par{position: relative;
+    top: 50px;
+    left: 4%;
+}
+
+button{background-color:rgb(150, 33, 72);
+    border-top-left-radius:50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-style: solid;
+    position: relative;
+    top: -400px;
+    width: 200px;
+    height: 50px;
+    font-size: 120%;
+    left: 4%;
+}
+
+#circle{position: relative;
+    left: 40%;
+    top: -200px;
+}
+#try{border-style: solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px;
+    position: relative;
+    top: -750px;
+    width: 10%;
+    left: 20%;
+    background-color: aliceblue;
+}
+#di{border-width: 2px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.302);
+    margin: 5%;
+    border-radius: 10px;
+    height: 800px;
+
+    
+}
+#mw{position: relative;
+    left: 30%;
+    top: -100px;
+    width: 70%;
+}
+#grow{position: relative;
+    top: 180px;
+    left:5%;
+    font-size: x-large;
+}
+#pp{position: relative;
+    left: 5%;
+    top:180px;
+}
+#set{border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.302);
+    border-radius: 10px;
+    
+}
+
+#sit{width: 50%;
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+
+.hh{position: relative;
+    left: 70%;
+    top: -200px;
+}
+#third{
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.302);
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 3%;
+    height: 750px;
+}
+#gr{position: relative;
+    left:35%;
+    top: -120px;
+    width: 60%;
+}
+.pe{
+   position: relative;
+   left: 5%;
+   top: 200px;
+
+}
+
+#bbt{
+    border-radius: 10px;
+    width: 30%;
+    position: relative;
+    top: 750px;
+    left: 30%;
+    border: solid;
+    background-color:beige;
+    padding-left: 70px;
+    border-color:whitesmoke;
+    border-width: 2px;
+
+    margin-right: -30px;
+}
+#but{
+    position: relative;
+    top: -10px;
+    width: 60%;
+    background-color: rgb(150, 33, 72);
+    left: 10%;
+    color: white;
+    
+}
+#sed{background-color:rgb(34, 52, 66);
+    position: relative;
+    top: 1400px;
+    height: 100%;
+    height: 600px;
+    color: white;
+
+}
+#GDD{
+    position: relative;
+    top: 200px;
+    display: inline-block;
+    left: 5.1%;
+    font-size: 250%;
+}
+
+#mess{width: 2%;
+    position: relative;
+    top: 200px;
+    left: 5%;
+
+}
+#map{
+    width: 1.0%;
+    position: relative;
+    top: 260px;
+    left:-5.5%
+}
+#ppp{
+    position: relative;
+    top: 185px;
+    left: 7%;
+}
+#phone{
+    width: 1.0%;
+    position: relative;
+    top: 200px;
+    left: 5.0%;
+}
+#ee{
+    position: relative;
+    top: 165px;
+    left: 7%;
+}
+#email{
+    width: 1.0%;
+    position: relative;
+    top: 175px;
+    left: 5%;
+}
+#exam{
+    position: relative;
+    left: 7%;
+    top: 135px;
+}
+#copy{
+    width: 1.5%;
+}
+#coo{
+    position: relative;
+    top: 150px;
+    left: 75%;
+}
+#ll{
+    list-style: none;
+    position: relative;
+    left: 40%;
+    top: -70px;
+}
+
+#we{
+    list-style: none;
+    position: relative;
+    left: 10%;
+    top: -90px;
+    
+}
+#face{
+    width: 2%;
+    margin-right: 5px;
+}
+#twit{
+    width: 2%;
+    margin-right: 5px;
+}
+#ins{
+    width: 2%;
+}
+#www{
+    position: relative;
+    left: 30%;
+    top: -210px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+      
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+      border: 1px solid green;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+    .hen{display: none;}
+  }
+  
+  /********** small devices only **********/
+  @media (max-width: 991px) {
+    .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
+      float: left;
+      border: 1px solid green;
+    }
+    .col-sd-1 {
+      width: 8.33%;
+    }
+    .col-sd-2 {
+      width: 16.66%;
+    }
+    .col-sd-3 {
+      width: 25%;
+    }
+    .col-sd-4 {
+      width: 33.33%;
+    }
+    .col-sd-5 {
+      width: 41.66%;
+    }
+    .col-sd-6 {
+      width: 50%;
+    }
+    .col-sd-7 {
+      width: 58.33%;
+    }
+    .col-sd-8 {
+      width: 66.66%;
+    }
+    .col-sd-9 {
+      width: 74.99%;
+    }
+    .col-sd-10 {
+      width: 83.33%;
+    }
+    .col-sd-11 {
+      width: 91.66%;
+    }
+    .col-sd-12 {
+      width: 100%;
+    }
+  }
+
+ 
