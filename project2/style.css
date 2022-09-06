@@ -462,7 +462,7 @@ button {
 }
 
 /********** small devices only **********/
-@media (max-width:375px) {
+@media (max-width:991px) {
 
   .col-sd-1,
   .col-sd-2,
@@ -480,6 +480,7 @@ button {
 
   }
 }
+/*
 #di {
   position: relative;
   top: 20px;
