@@ -463,7 +463,7 @@ button {
 }
 
 /********** small devices only **********/
-@media (max-width:576px) {
+@media (max-width:991px) {
 
   .col-sd-1,
   .col-sd-2,
