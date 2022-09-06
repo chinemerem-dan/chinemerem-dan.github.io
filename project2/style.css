@@ -461,8 +461,8 @@ button {
   }
 }
 
-/********** small devices only **********/
-@media (max-width:991px) {
+/********** small devices only **********
+@media (max-width:720px) {
 
   .col-sd-1,
   .col-sd-2,
