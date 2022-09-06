@@ -480,9 +480,6 @@ button {
 
   }
 }
-body{
-  overflow-x: hidden;
-}
 #di {
   position: relative;
   top: 20px;
@@ -534,7 +531,8 @@ left: 3%;
 #par {
   position: relative;
   left: 8%;
-  width: 40%;
+  width: 60%;
+  top: -20px;
 
   text-align: center;
 
@@ -544,6 +542,7 @@ left: 3%;
   position: relative;
   left: -2%;
   text-align: center;
+  top: -30px;
 
 }
 
@@ -558,7 +557,7 @@ left: 3%;
 button {
 
   position: relative;
-  top: 70px;
+  top: 200px;
   left: 10%;
 }
 
