@@ -479,7 +479,9 @@ button {
     float: left;
 
   }
-
+body{
+  width: 100%;
+}
 }
 
 #di {
