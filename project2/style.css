@@ -549,7 +549,7 @@ left: 3%;
 
 #try {
   position: relative;
-  top: -680px;
+  top: -650px;
   left: 60%;
   width: 30%;
 
@@ -559,7 +559,7 @@ button {
 
   position: relative;
   top: 70px;
-  left: 20%;
+  left: 10%;
 }
 
 #circle {
