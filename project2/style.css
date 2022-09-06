@@ -410,7 +410,7 @@ button {
 }
 
 /********** small devices only **********/
-@media (max-width:375px) {
+@media (max-width:576px) {
   .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
   
