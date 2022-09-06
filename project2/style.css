@@ -23,7 +23,7 @@ body {
 
 }
 
-#hud {
+hud {
   font-size: 250%;
   position: relative;
   left: 4%;
@@ -35,11 +35,12 @@ body {
 .str {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 150%;
-  display: block;
+  
   word-spacing: 2px;
   position: relative;
   left: 4%;
   top: 40px;
+  width: -50%;
 }
 
 #first {
@@ -50,14 +51,15 @@ body {
 
 }
 
-#par {
+.par {
   position: relative;
-  top: 50px;
+  top: 40px;
   left: 4%;
-  width: 25%;
+  width: 50%;
+  
 }
 
-button {
+.button {
   background-color: rgb(150, 33, 72);
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -65,33 +67,36 @@ button {
   border-bottom-right-radius: 50px;
   border-style: solid;
   position: relative;
-  top: -400px;
-  width: 200px;
+  top: -350px;
   height: 50px;
   font-size: 120%;
-  left: 6%;
+  left: 3%;
+  width: 10%;
 }
 
-#circle {
+.circle {
   position: relative;
-  left: 40%;
-  top: -200px;
+  left: 15%;
+  top: -180px;
+  width: 50%;
+  height: 500px;
 }
 
-#try {
+.try {
   border-style: solid;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   position: relative;
-  top: -740px;
-  width: 10%;
-  left: 20%;
+  top: -40px;
+  width: 15%;
+  left: 70%;
+  height: 50px;
   background-color: aliceblue;
 }
 
-#di {
+.di {
   border-width: 2px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.302);
@@ -123,7 +128,7 @@ button {
   top: 180px;
 }
 
-#set {
+.set {
   border-width: 2px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.302);
@@ -148,7 +153,7 @@ button {
   width: 25%;
 }
 
-#third {
+.third {
   border-radius: 10px;
   border-color: rgba(0, 0, 0, 0.302);
   border-style: solid;
@@ -202,10 +207,10 @@ button {
 
 }
 
-#sed {
+.sed {
   background-color: rgb(34, 52, 66);
   position: relative;
-  top: 400px;
+  top: 150px;
   height: 100%;
   height: 600px;
   color: white;
@@ -338,6 +343,7 @@ button {
     float: left;
 
   }
+
 
   .col-lg-1 {
     width: 8.33%;
@@ -479,8 +485,41 @@ button {
     float: left
 
   }
+  
+.try {
+  position: relative;
+  left: 65%;
+  
+
 }
-/*
+
+.circle {
+  position: relative;
+  top: 60px;
+  height: 300px;
+  text-align: center;
+  left: -10%;
+}
+
+.par {
+  position: relative;
+  left: 8%;
+  width: 70%;
+  top: -20px;
+
+  text-align: center;
+
+}
+
+.str {
+  position: relative;
+  left: -2%;
+  text-align: center;
+  top: -30px;
+
+}
+
+}/*
 #di {
   position: relative;
   top: 20px;
@@ -529,31 +568,6 @@ left: 3%;
 
 }
 
-#par {
-  position: relative;
-  left: 8%;
-  width: 40%;
-  top: -20px;
-
-  text-align: center;
-
-}
-
-.str {
-  position: relative;
-  left: -2%;
-  text-align: center;
-  top: -30px;
-
-}
-
-#try {
-  position: relative;
-  top: -650px;
-  left: 60%;
-  width: 30%;
-
-}
 
 button {
 
@@ -562,17 +576,8 @@ button {
   left: 10%;
 }
 
-#circle {
-  position: relative;
-  top: 100px;
-  left: 10%;
-  width: 80%;
-  text-align: center;
-}
 
-#imm {
-  width: 5%;
-}
+
 
 #sit {
   position: relative;
