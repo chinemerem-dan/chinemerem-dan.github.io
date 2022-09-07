@@ -320,7 +320,7 @@ body {
 
 /**large devices*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
 
   .col-lg-1,
   .col-lg-2,
@@ -503,7 +503,7 @@ body {
 
 
 /********** small devices only **********/
-@media(max-width:991px) {
+@media(max-width:375px) {
 
   .col-sd-1,
   .col-sd-2,
