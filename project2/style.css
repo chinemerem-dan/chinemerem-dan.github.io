@@ -15,15 +15,15 @@ body {
   width: 25%;
 }
 
-#imm {
+.imm {
   width: 1.5%;
   position: relative;
-  left: 4%;
+  left: 14%;
   top: -30px;
 
 }
 
-hud {
+.hud {
   font-size: 250%;
   position: relative;
   left: 4%;
@@ -45,7 +45,7 @@ hud {
 
 #first {
   background-color: hsla(180, 56%, 72%, 0.391);
-  height: 700px;
+  height: 750px;
   margin: 0%;
   padding: 0%;
 
@@ -55,7 +55,7 @@ hud {
   position: relative;
   top: 40px;
   left: 4%;
-  width: 50%;
+  width:25%;
   
 }
 
@@ -70,15 +70,15 @@ hud {
   top: -350px;
   height: 50px;
   font-size: 120%;
-  left: 3%;
-  width: 10%;
+  left:10%;
+  
 }
 
 .circle {
   position: relative;
   left: 15%;
   top: -180px;
-  width: 50%;
+ 
   height: 500px;
 }
 
@@ -107,25 +107,19 @@ hud {
 
 }
 
-#mw {
+.mw {
   position: relative;
   left: 30%;
   top: -100px;
-  width: 70%;
+ 
 }
 
-#grow {
-  position: relative;
-  top: 180px;
-  left: 5%;
-  font-size: x-large;
 
-}
-
-#pp {
+.pp {
   position: relative;
   left: 5%;
   top: 180px;
+  width: 28%;
 }
 
 .set {
@@ -165,7 +159,7 @@ hud {
   left: 5%;
 }
 
-#gr {
+.gr {
   position: relative;
   left: 35%;
   top: -120px;
@@ -196,10 +190,10 @@ hud {
   margin-right: -30px;
 }
 
-#but {
+.but {
   position: relative;
   top: -10px;
-  width: 60%;
+  
   background-color: rgb(150, 33, 72);
   text-align: center;
   color: white;
@@ -326,7 +320,7 @@ hud {
 
 /**large devices*/
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
 
   .col-lg-1,
   .col-lg-2,
@@ -343,7 +337,47 @@ hud {
     float: left;
 
   }
+.imm{
+  position: relative;
+  left: 4%;
+  
+}
+.grow {
+    position: relative;
+    top: 250px;
+    left: 5%;
+    font-size: x-large;
+  
+  }
+  .pp{
+    position: relative;
+    top: 250px;
+  }
 
+
+.mw{
+  width: 60%;
+  position: relative;
+  left: 40%;
+  
+}
+.button{
+  position: relative;
+  top: -400px;
+  left: 5%;
+  width: 15%;
+
+}
+.try{
+  position: relative;
+  top: -25px;
+}
+.circle{
+  position: relative;
+  left: 18%;
+  width: 60%;
+
+}
 
   .col-lg-1 {
     width: 8.33%;
@@ -392,8 +426,8 @@ hud {
   .col-lg-12 {
     width: 100%;
   }
-}
 
+}
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -408,10 +442,14 @@ hud {
   .col-md-9,
   .col-md-10,
   .col-md-11,
-  .col-md-12 {
+  .col-md-12
+  {
     float: left;
-
   }
+
+
+  
+
 
   .col-md-1 {
     width: 8.33%;
@@ -461,14 +499,11 @@ hud {
   .col-md-12 {
     width: 100%;
   }
-
-  .hen {
-    display: none;
-  }
 }
 
+
 /********** small devices only **********/
-@media (max-width:991px) {
+@media(max-width:991px) {
 
   .col-sd-1,
   .col-sd-2,
@@ -485,26 +520,34 @@ hud {
     float: left
 
   }
+  .imm{
+    width: 3%;
+    left: 4%;
+    position: relative;
+   
+  }
   
 .try {
-  position: relative;
-  left: 65%;
-  
+width: 25%;
+position: relative;
+left: 30%;
 
 }
 
 .circle {
   position: relative;
-  top: 60px;
+  top: 100px;
   height: 300px;
   text-align: center;
   left: -10%;
+  width: 60%;
+
 }
 
 .par {
   position: relative;
-  left: 8%;
-  width: 70%;
+  left: 22%;
+  width: 52%;
   top: -20px;
 
   text-align: center;
@@ -518,8 +561,13 @@ hud {
   top: -30px;
 
 }
+.button {
+  position: relative;
+  left: 35%;
+  width: 25%;
+  top: -250px;
+}
 
-}/*
 #di {
   position: relative;
   top: 20px;
@@ -530,23 +578,22 @@ left: 3%;
 
 }
 
-#button {
-  position: relative;
-  left: 20%;
-}
-
-#grow {
+.grow {
   text-align: center;
   width: 80%;
-  top: 200px;
+  position: relative;
+  top: 400px;
+  left: 5%;
+
 
 }
 
-#pp {
-  width: 82%;
+.pp {
+  width: 32%;
   position: relative;
-  top: 200px;
-  left: 5%;
+  top: 400px;
+  left: 28%;
+  text-align: center;
 
 }
 
@@ -559,22 +606,19 @@ left: 3%;
 
 }
 
-#mw {
+.mw {
   position: relative;
-  top: -140px;
+  top: -80px;
   width: 50%;
-  left: 5%;
+  left: 25%;
   text-align: center;
 
 }
 
 
-button {
 
-  position: relative;
-  top: 200px;
-  left: 10%;
-}
+/*
+
 
 
 
@@ -604,7 +648,7 @@ button {
   height: 400px;
 }
 
-#gr {
+.gr {
   position: relative;
   top: -1000px;
   text-align: center;
@@ -633,7 +677,7 @@ button {
 
 }
 
-#but {
+.but {
   width: 60%;
   text-align: center;
   position: relative;
@@ -720,4 +764,6 @@ button {
 
 .col-sd-12 {
   width: 100%;
+}
+
 }
