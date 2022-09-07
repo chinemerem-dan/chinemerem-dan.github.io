@@ -207,7 +207,7 @@ body {
   height: 50px;
   font-size: 120%;
   left:10%;
-  top: -10px;
+  top: -8px;
   border: none;
   color: white;
  
@@ -223,7 +223,7 @@ body {
 
 }
 
-#GDD {
+.GDD {
   position: relative;
   top: 200px;
   display: inline-block;
@@ -231,7 +231,7 @@ body {
   font-size: 250%;
 }
 
-#mess {
+.mess {
   width: 2%;
   position: relative;
   top: 200px;
@@ -239,64 +239,64 @@ body {
 
 }
 
-#map {
+.map {
   width: 1.0%;
   position: relative;
   top: 260px;
   left: -5.5%
 }
 
-#ppp {
+.ppp {
   position: relative;
   top: 185px;
   left: 10%;
   width: 25%;
 }
 
-#phone {
+.phone {
   width: 1.0%;
   position: relative;
   top: 200px;
   left: 5.0%;
 }
 
-#ee {
+.ee {
   position: relative;
   top: 165px;
   left: 7%;
 }
 
-#email {
+.email {
   width: 1.0%;
   position: relative;
   top: 175px;
   left: 5%;
 }
 
-#exam {
+.exam {
   position: relative;
   left: 7%;
   top: 135px;
 }
 
-#copy {
+.copy {
   width: 1.5%;
 }
 
-#coo {
+.coo {
   position: relative;
   top: 150px;
   left: 75%;
 }
 
-#ll {
+.ll {
   list-style: none;
   position: relative;
   left: 40%;
   top: -70px;
 }
 
-#we {
+.we {
   list-style: none;
   position: relative;
   left: 10%;
@@ -318,7 +318,7 @@ body {
   width: 2%;
 }
 
-#www {
+.www {
   position: relative;
   left: 30%;
   top: -210px;
@@ -572,7 +572,7 @@ height: 30px;
 
 .par {
   position: relative;
-  left: 10%;
+  left: 12%;
   width: 70%;
   top:-20px;
 
@@ -612,7 +612,7 @@ height: 30px;
 .pp {
   width: 70%;
   position: relative;
-  top: 200px;
+  top: 190px;
   left: 10%;
   text-align: center;
 
@@ -690,7 +690,7 @@ height: 30px;
 
 .bbt {width: 95%;
   position: relative;
-  top: -840px;
+  top: -920px;
   text-align: center;
   left: 2%;
 
@@ -698,10 +698,10 @@ height: 30px;
 
 
 .but {
-  width: 70%;
+  width: 80%;
   text-align: center;
   position: relative;
-  left: -12%;
+  left: -18%;
   height: 50px;
 
 
@@ -714,34 +714,53 @@ height: 30px;
   font-size: 130%;
   width: 200%;
 }
-
-/*
-
-
-
-
-#sed {
+.mess {
+  width: 8%;
   position: relative;
-  top: 1100px
+  top: 100px;
+  
 }
-
-#mess {
-  width: 10%;
+.GDD {
   position: relative;
-  top:
-    20px;
-  left: -80%;
+  top: 30px;
+  left: 20%;
+  font-size: 200%;
+  
+}
+.map{
+  width: 5%;
+  position: relative;
+  top: 10px;
+  left: 5%;
+}
+.ppp{
+  width: 60%;
+  text-align: center;
+  position: relative;
+  top: -35px;
+  left: 15%;
+}
+.phone{
+  width: 5%;
+  position: relative;
+  top: -30px;
 
 }
-
-#GDD {
+.ee{
   position: relative;
-  top: -600px;
-  left: -50%;
-  width: 50%;
-
-
-}*/
+  top:-65px;
+  left: 15%;
+}
+.email{
+  width: 5%;
+  position: relative;
+  top: -50px;
+}
+.exam{
+  position: relative;
+  top: -85px;
+  left: 15%;
+}
 
 .col-sd-1 {
   width: 8.33%;
