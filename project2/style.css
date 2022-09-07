@@ -133,7 +133,7 @@ body {
 
 }
 
-#sit {
+.sit {
   width: 50%;
   position: relative;
   top: 100px;
@@ -582,12 +582,8 @@ height: 30px;
   top: 10px;
 }
 
-.di {
-    height: 450px;
-text-align: center;
 
 
-}
 
 .grow {
   text-align: center;
@@ -626,14 +622,6 @@ text-align: center;
 
 }
 
-
-
-/*
-
-
-
-
-
 #sit {
   position: relative;
   top: 50px;
@@ -642,6 +630,14 @@ text-align: center;
   width: 50%;
 
 }
+
+
+/*
+
+
+
+
+
 
 .hh {
   position: relative;
