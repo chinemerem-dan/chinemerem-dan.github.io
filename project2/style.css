@@ -60,17 +60,20 @@ body {
 }
 
 .button {
-  background-color: rgb(150, 33, 72);
+  background-color:rgb(227, 33, 33);
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border-style: solid;
   position: relative;
-  top: -350px;
+  width: 60%;
   height: 50px;
   font-size: 120%;
   left:10%;
+  top: -10px;
+ border: none;
+ color: white;
   
 }
 
@@ -94,6 +97,8 @@ body {
   left: 70%;
   height: 50px;
   background-color: aliceblue;
+  border: none;
+  font-size: 120%;
 }
 
 .di {
@@ -174,7 +179,7 @@ body {
 
 }
 
-#bbt {
+.bbt {
   border-radius: 10px;
   width: 30%;
   position: relative;
@@ -191,14 +196,21 @@ body {
 }
 
 .but {
+  background-color:rgb(227, 33, 33);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-style: solid;
   position: relative;
+  width: 60%;
+  height: 50px;
+  font-size: 120%;
+  left:10%;
   top: -10px;
-  
-  background-color: rgb(150, 33, 72);
-  text-align: center;
+  border: none;
   color: white;
-  left: 10%;
-
+ 
 }
 
 .sed {
@@ -542,7 +554,7 @@ body {
 .try {
 width: 35%;
 position: relative;
-left: 20%;
+left: 30%;
 top:-15px;
 height: 30px;
 
@@ -561,8 +573,8 @@ height: 30px;
 .par {
   position: relative;
   left: 10%;
-  width: 55%;
-  top: -20px;
+  width: 70%;
+  top:-20px;
 
   text-align: center;
 
@@ -570,19 +582,21 @@ height: 30px;
 
 .str {
   position: relative;
-  left: -5%;
+  left: -2%;
   text-align: center;
   top: -30px;
 
 }
 .button {
   position: relative;
-  left: 10%;
+  left: 15%;
   width: 60%;
   top: 10px;
 }
 
-
+.di{
+  height: 400px;
+}
 
 
 .grow {
@@ -596,15 +610,15 @@ height: 30px;
 }
 
 .pp {
-  width: 55%;
+  width: 70%;
   position: relative;
   top: 200px;
-  left: 15%;
+  left: 10%;
   text-align: center;
 
 }
 
-#set {
+.set {
   position: relative;
   top: 20px;
   height: 400px;
@@ -615,14 +629,14 @@ height: 30px;
 
 .mw {
   position: relative;
-  top: -200px;
+  top: -150px;
   width: 50%;
-  left: 5%;
+  left: 25%;
   text-align: center;
 
 }
 
-#sit {
+.sit {
   position: relative;
   top: 50px;
   text-align: center;
@@ -632,60 +646,59 @@ height: 30px;
 }
 
 
-/*
-
-
-
-
-
-
 .hh {
   position: relative;
   top: 80px;
-  width: 82%;
-  left: 5%;
+  width: 70%;
+  left: 10%;
   text-align: center;
 }
 
-#third {
+
+
+.third {
   position: relative;
-  top: 950px;
+  top: 50px;
   width: 85%;
   left: 8%;
   height: 400px;
 }
 
+
 .gr {
   position: relative;
-  top: -1000px;
+  top: -150px;
   text-align: center;
   left: 15%;
 }
 
 .pe {
   position: relative;
-  top: -680px;
-  width: 82%;
+  top: 180px;
+  width: 70%;
   text-align: center;
+  left: 10%;
 
 }
 
-#sed {
+
+.sed {
   position: relative;
-  top: 900px;
+  top: 150px;
 }
 
-#bbt {
-  width: 95%;
+
+.bbt {width: 95%;
   position: relative;
-  top: -1300px;
+  top: -840px;
   text-align: center;
   left: 2%;
 
 }
 
+
 .but {
-  width: 60%;
+  width: 70%;
   text-align: center;
   position: relative;
   left: -12%;
@@ -697,10 +710,15 @@ height: 30px;
 .h2 {
   position: relative;
   text-align: center;
-  left: -60%;
-  font-size: 150%;
+  left: -65%;
+  font-size: 130%;
   width: 200%;
 }
+
+/*
+
+
+
 
 #sed {
   position: relative;
