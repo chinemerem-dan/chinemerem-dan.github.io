@@ -16,7 +16,7 @@ body {
 }
 
 .imm {
-  width: 1.5%;
+  
   position: relative;
   left: 14%;
   top: -30px;
@@ -24,7 +24,7 @@ body {
 }
 
 .hud {
-  font-size: 250%;
+ 
   position: relative;
   left: 4%;
   display: inline-block;
@@ -340,7 +340,12 @@ body {
 .imm{
   position: relative;
   left: 4%;
+  width: 1.5%;
   
+  
+}
+.hud{
+  font-size:250% ;
 }
 .grow {
     position: relative;
@@ -521,33 +526,42 @@ body {
 
   }
   .imm{
-    width: 3%;
+    width: 6%;
     left: 4%;
     position: relative;
+    top:-8px;
+  
+   
+  }
+  .hud{font-size: 150%;
+    position: relative;
+    top:-10px
    
   }
   
 .try {
-width: 25%;
+width: 35%;
 position: relative;
-left: 30%;
+left: 20%;
+top:-15px;
+height: 30px;
 
 }
 
 .circle {
   position: relative;
-  top: 100px;
+  top: 50px;
   height: 300px;
   text-align: center;
-  left: -10%;
-  width: 60%;
+  left: 5%;
+  width: 90%;
 
 }
 
 .par {
   position: relative;
-  left: 22%;
-  width: 52%;
+  left: 10%;
+  width: 55%;
   top: -20px;
 
   text-align: center;
@@ -556,25 +570,22 @@ left: 30%;
 
 .str {
   position: relative;
-  left: -2%;
+  left: -5%;
   text-align: center;
   top: -30px;
 
 }
 .button {
   position: relative;
-  left: 35%;
-  width: 25%;
-  top: -250px;
+  left: 10%;
+  width: 60%;
+  top: 10px;
 }
 
-#di {
-  position: relative;
-  top: 20px;
-  width: 85%;
-  height: 450px;
+.di {
+    height: 450px;
 text-align: center;
-left: 3%;
+
 
 }
 
@@ -582,17 +593,17 @@ left: 3%;
   text-align: center;
   width: 80%;
   position: relative;
-  top: 400px;
+  top: 200px;
   left: 5%;
 
 
 }
 
 .pp {
-  width: 32%;
+  width: 55%;
   position: relative;
-  top: 400px;
-  left: 28%;
+  top: 200px;
+  left: 15%;
   text-align: center;
 
 }
@@ -608,9 +619,9 @@ left: 3%;
 
 .mw {
   position: relative;
-  top: -80px;
+  top: -200px;
   width: 50%;
-  left: 25%;
+  left: 5%;
   text-align: center;
 
 }
