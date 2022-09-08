@@ -250,7 +250,9 @@ body {
   position: relative;
   top: 185px;
   left: 10%;
-  width: 25%;
+  font-size: medium;
+  
+  
 }
 
 .phone {
@@ -292,8 +294,10 @@ body {
 .ll {
   list-style: none;
   position: relative;
-  left: 40%;
-  top: -70px;
+  left: -10%;
+  top: -110px;
+  text-align: left;
+  font-size: 80%;
 }
 
 .we {
@@ -301,20 +305,20 @@ body {
   position: relative;
   left: 10%;
   top: -90px;
+  font-size: 80%;
 
 }
 
-#face {
+.face {
   width: 2%;
   margin-right: 5px;
 }
 
-#twit {
+.twit {
   width: 2%;
   margin-right: 5px;
 }
-
-#ins {
+.ins {
   width: 2%;
 }
 
@@ -323,7 +327,11 @@ body {
   left: 30%;
   top: -210px;
 }
-
+.we{
+  position: relative;
+  top: 15px;
+  left: -16%;
+}
 
 /* Simple Responsive Framework. */
 .row {
@@ -572,8 +580,8 @@ height: 30px;
 
 .par {
   position: relative;
-  left: 12%;
-  width: 70%;
+  left: 5%;
+  width: 85%;
   top:-20px;
 
   text-align: center;
@@ -610,10 +618,10 @@ height: 30px;
 }
 
 .pp {
-  width: 70%;
+  width: 100%;
   position: relative;
-  top: 190px;
-  left: 10%;
+  top: 210px;
+  left: -3%;
   text-align: center;
 
 }
@@ -629,7 +637,7 @@ height: 30px;
 
 .mw {
   position: relative;
-  top: -150px;
+  top: -120px;
   width: 50%;
   left: 25%;
   text-align: center;
@@ -648,9 +656,9 @@ height: 30px;
 
 .hh {
   position: relative;
-  top: 80px;
-  width: 70%;
-  left: 10%;
+  top: 120px;
+  width: 100%;
+  left: -2%;
   text-align: center;
 }
 
@@ -675,22 +683,22 @@ height: 30px;
 .pe {
   position: relative;
   top: 180px;
-  width: 70%;
+  width: 95%;
   text-align: center;
-  left: 10%;
+  left: 2%;
 
 }
 
 
 .sed {
   position: relative;
-  top: 150px;
+top: 150px;
 }
 
 
 .bbt {width: 95%;
   position: relative;
-  top: -920px;
+  top: -650px;
   text-align: center;
   left: 2%;
 
@@ -702,7 +710,9 @@ height: 30px;
   text-align: center;
   position: relative;
   left: -18%;
-  height: 50px;
+  height: 30px;
+  font-size: 100%;
+  
 
 
 }
@@ -710,8 +720,8 @@ height: 30px;
 .h2 {
   position: relative;
   text-align: center;
-  left: -65%;
-  font-size: 130%;
+  left: -70%;
+  font-size: 110%;
   width: 200%;
 }
 .mess {
@@ -734,11 +744,12 @@ height: 30px;
   left: 5%;
 }
 .ppp{
-  width: 60%;
-  text-align: center;
+  width: 86.5%;
+  text-align: left;
   position: relative;
   top: -35px;
   left: 15%;
+  font-size: 93%;
 }
 .phone{
   width: 5%;
@@ -761,6 +772,27 @@ height: 30px;
   top: -85px;
   left: 15%;
 }
+.www{
+  position: relative;
+  top: 30px;
+  left: 5%;
+  text-align: center;
+  
+}
+.face,.ins,.twit{
+  width: 5%;
+}
+
+.coo{
+  position: relative;
+  left: -3%;
+  text-align: center;
+  font-size: 70%;
+ 
+
+}
+
+
 
 .col-sd-1 {
   width: 8.33%;
