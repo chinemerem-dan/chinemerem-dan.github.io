@@ -294,7 +294,7 @@ body {
 .ll {
   list-style: none;
   position: relative;
-  left: -10%;
+  left: -7%;
   top: -110px;
   text-align: left;
   font-size: 80%;
@@ -621,7 +621,7 @@ height: 30px;
   width: 100%;
   position: relative;
   top: 210px;
-  left: -3%;
+  left: -1.5%;
   text-align: center;
 
 }
@@ -658,7 +658,7 @@ height: 30px;
   position: relative;
   top: 120px;
   width: 100%;
-  left: -2%;
+  left: -1.5%;
   text-align: center;
 }
 
@@ -698,7 +698,7 @@ top: 150px;
 
 .bbt {width: 95%;
   position: relative;
-  top: -650px;
+  top: -660px;
   text-align: center;
   left: 2%;
 
@@ -791,6 +791,8 @@ top: 150px;
  
 
 }
+
+
 
 
 
