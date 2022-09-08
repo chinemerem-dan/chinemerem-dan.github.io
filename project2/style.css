@@ -297,7 +297,7 @@ body {
 .ll {
   list-style: none;
   position: relative;
-  left: -7%;
+  left:2%;
   top: -110px;
   text-align: left;
   font-size: 80%;
@@ -367,7 +367,7 @@ body {
 .ll {
   list-style: none;
   position: relative;
-  left: 40%;
+  left: 50%;
   top: -180px;
   font-size: 100%;
 }
@@ -375,7 +375,7 @@ body {
 .we {
   list-style: none;
   position: relative;
-  left: 10%;
+  left: 20%;
   top: -90px;
   font-size: 90%;
 
@@ -804,7 +804,7 @@ top: 150px;
   left: -1%;
   text-align: center;
   font-size: 100%;
-  top: 160px;
+  top: 150px;
  
 
 }
