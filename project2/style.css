@@ -303,15 +303,6 @@ body {
   font-size: 80%;
 }
 
-.we {
-  list-style: none;
-  position: relative;
-  left: 10%;
-  top: -90px;
-  font-size: 90%;
-
-}
-
 .face {
   width: 2%;
   margin-right: 5px;
@@ -331,10 +322,13 @@ body {
   top: -210px;
 }
 
+
 .we{
   position: relative;
   top: 15px;
   left: -15%;
+  list-style: none;
+  
 }
 
 /* Simple Responsive Framework. */
@@ -807,9 +801,9 @@ top: 150px;
 
 .coo{
   position: relative;
-  left: -3%;
+  left: -1%;
   text-align: center;
-  font-size: 70%;
+  font-size: 100%;
   top: 170px;
  
 
