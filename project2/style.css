@@ -183,7 +183,7 @@ body {
   border-radius: 10px;
   width: 30%;
   position: relative;
-  top: -680px;
+  top: -800px;
   left: 30%;
   border: solid;
   background-color: beige;
@@ -225,9 +225,9 @@ body {
 
 .GDD {
   position: relative;
-  top: 200px;
+  top: 110px;
   display: inline-block;
-  left: 5.1%;
+  left: 8%;
   font-size: 250%;
 }
 
@@ -242,15 +242,18 @@ body {
 .map {
   width: 1.0%;
   position: relative;
-  top: 260px;
-  left: -5.5%
+  top: 120px;
+  left: 5%
 }
 
 .ppp {
   position: relative;
-  top: 185px;
-  left: 10%;
+  top: 75px;
+  left: 8%;
   font-size: medium;
+  text-align: left;
+  width: 23%;
+
   
   
 }
@@ -258,27 +261,27 @@ body {
 .phone {
   width: 1.0%;
   position: relative;
-  top: 200px;
+  top: 100px;
   left: 5.0%;
 }
 
 .ee {
   position: relative;
-  top: 165px;
-  left: 7%;
+  top: 65px;
+  left: 8%;
 }
 
 .email {
   width: 1.0%;
   position: relative;
-  top: 175px;
+  top:75px;
   left: 5%;
 }
 
 .exam {
   position: relative;
-  left: 7%;
-  top: 135px;
+  left: 8%;
+  top: 35px;
 }
 
 .copy {
@@ -287,7 +290,7 @@ body {
 
 .coo {
   position: relative;
-  top: 150px;
+  top: 130px;
   left: 75%;
 }
 
@@ -305,7 +308,7 @@ body {
   position: relative;
   left: 10%;
   top: -90px;
-  font-size: 80%;
+  font-size: 90%;
 
 }
 
@@ -327,10 +330,11 @@ body {
   left: 30%;
   top: -210px;
 }
+
 .we{
   position: relative;
   top: 15px;
-  left: -16%;
+  left: -15%;
 }
 
 /* Simple Responsive Framework. */
@@ -363,6 +367,24 @@ body {
   width: 1.5%;
   
   
+}
+
+
+.ll {
+  list-style: none;
+  position: relative;
+  left: 40%;
+  top: -180px;
+  font-size: 100%;
+}
+
+.we {
+  list-style: none;
+  position: relative;
+  left: 10%;
+  top: -90px;
+  font-size: 90%;
+
 }
 .hud{
   font-size:250% ;
@@ -698,7 +720,7 @@ top: 150px;
 
 .bbt {width: 95%;
   position: relative;
-  top: -660px;
+  top: -700px;
   text-align: center;
   left: 2%;
 
@@ -788,6 +810,7 @@ top: 150px;
   left: -3%;
   text-align: center;
   font-size: 70%;
+  top: 170px;
  
 
 }
