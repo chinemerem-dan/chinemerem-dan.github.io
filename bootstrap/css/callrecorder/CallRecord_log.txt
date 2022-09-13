@@ -1,0 +1,47 @@
+30/10/2020 00:30:55 [CallRecorderService]/11: DEVICE_STRATEGY_CHECK: Infinix X655C (Infinix-X655C) defaulting to VOICE_CALL
+30/10/2020 00:30:56 [CallRecorder]/11: SetAutomatic = true
+30/10/2020 00:30:56 [CallRecorderService]/11: DEVICE_STRATEGY_CHECK: Infinix X655C (Infinix-X655C) defaulting to VOICE_CALL
+30/10/2020 00:30:56 [CallRecorder]/11: SetAutomatic = true
+02/12/2020 20:12:03 [CallRecorderService]/11: DEVICE_STRATEGY_CHECK: Infinix X655C (Infinix-X655C) defaulting to VOICE_CALL
+02/12/2020 20:12:04 [CallRecorder]/11: SetAutomatic = true
+02/12/2020 20:12:04 [CallRecorderService]/11: DEVICE_STRATEGY_CHECK: Infinix X655C (Infinix-X655C) defaulting to VOICE_CALL
+02/12/2020 20:12:04 [CallRecorder]/11: SetAutomatic = true
+02/12/2020 20:16:21 [App]/11: Starting call recorder service .. bound=false
+02/12/2020 20:16:21 [PhoneStateReceiver]/11: PhoneStateReceiver: intent = Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 cmp=call.recorder.automatic.acr/com.recorder.call.core.receiver.PhoneStateReceiver (has extras) }
+02/12/2020 20:16:21 [TelephonyStatus]/11: Set call type to INCOMING
+02/12/2020 20:16:21 [TelephonyStatus]/11: Set phoneNo, len = null
+02/12/2020 20:16:21 [TelephonyStatus]/11: Telephony state = RINGING
+02/12/2020 20:16:21 [CallRecorderService]/11: InCallThread started
+02/12/2020 20:16:21 [App]/11: CallRecorderService is now bound
+02/12/2020 20:16:21 [App]/11: Signalling service is bound..
+02/12/2020 20:16:26 [CallRecorderService]/11: InCallThread notified
+02/12/2020 20:16:47 [App]/11: Starting call recorder service .. bound=true
+02/12/2020 20:16:47 [PhoneStateReceiver]/11: PhoneStateReceiver: intent = Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 cmp=call.recorder.automatic.acr/com.recorder.call.core.receiver.PhoneStateReceiver (has extras) }
+02/12/2020 20:16:47 [TelephonyStatus]/11: Telephony state = IDLE
+02/12/2020 20:16:47 [TelephonyStatus]/11: Reset the telephony status
+02/12/2020 20:16:48 [CallRecorderService]/11: InCallThread stopped
+02/12/2020 20:16:48 [CallRecorder]/11: Attempting to stop call recorder service.. bound=true
+02/12/2020 20:16:48 [CallRecorder]/11: Unbinding service connection
+02/12/2020 20:16:48 [CallRecorderService]/11: onDestroy
+02/12/2020 20:16:58 [App]/11: Starting call recorder service .. bound=false
+02/12/2020 20:16:58 [PhoneStateReceiver]/11: PhoneStateReceiver: intent = Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 cmp=call.recorder.automatic.acr/com.recorder.call.core.receiver.PhoneStateReceiver (has extras) }
+02/12/2020 20:16:58 [TelephonyStatus]/11: Set call type to INCOMING
+02/12/2020 20:16:58 [TelephonyStatus]/11: Set phoneNo, len = null
+02/12/2020 20:16:58 [TelephonyStatus]/11: Telephony state = RINGING
+02/12/2020 20:16:58 [CallRecorderService]/11: InCallThread started
+02/12/2020 20:16:58 [App]/11: CallRecorderService is now bound
+02/12/2020 20:16:58 [App]/11: Signalling service is bound..
+02/12/2020 20:17:03 [CallRecorderService]/11: InCallThread notified
+02/12/2020 20:17:14 [App]/11: Starting call recorder service .. bound=true
+02/12/2020 20:17:14 [PhoneStateReceiver]/11: PhoneStateReceiver: intent = Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 cmp=call.recorder.automatic.acr/com.recorder.call.core.receiver.PhoneStateReceiver (has extras) }
+02/12/2020 20:17:14 [TelephonyStatus]/11: Telephony state = OFFHOOK
+02/12/2020 20:17:14 [TelephonyStatus]/11: TELEPHONY_STATE: APP_NOT_ACTIVE_1
+02/12/2020 20:17:14 [TelephonyStatus]/11: RECORDING_ALLOWED: false, AUTOMATED: true
+02/12/2020 20:18:09 [App]/11: Starting call recorder service .. bound=true
+02/12/2020 20:18:09 [PhoneStateReceiver]/11: PhoneStateReceiver: intent = Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 cmp=call.recorder.automatic.acr/com.recorder.call.core.receiver.PhoneStateReceiver (has extras) }
+02/12/2020 20:18:09 [TelephonyStatus]/11: Telephony state = IDLE
+02/12/2020 20:18:09 [TelephonyStatus]/11: Reset the telephony status
+02/12/2020 20:18:09 [CallRecorderService]/11: InCallThread stopped
+02/12/2020 20:18:09 [CallRecorder]/11: Attempting to stop call recorder service.. bound=true
+02/12/2020 20:18:09 [CallRecorder]/11: Unbinding service connection
+02/12/2020 20:18:09 [CallRecorderService]/11: onDestroy

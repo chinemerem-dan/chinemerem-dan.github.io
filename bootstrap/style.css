@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+
+    justify-content: flex-end;
+
+
+}
+
+a {
+    text-decoration: none;
+
+    padding: 1%;
+    font-size: 180%;
+}
+
+
+
+a:hover {
+    background-color: rgba(32, 32, 79, 0.673);
+}
+
+.mimic {
+    font-size: 400%;
+    position: relative;
+    top: 230px;
+    height: 500px;
+
+}
+
+.mimici {
+    font-size: 200%;
+    position: relative;
+    top: -200px;
+}
+
+.project {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    position: relative;
+    left: 25%;
+    top: 50px;
+    text-align: center;
+    width: 45%;
+    font-size: 300%;
+    
+}
+.tribute{
+    text-align: center;
+}
+.image-fluid{
+    padding: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    padding-right: 50px;
+   
+    
+}
+.map{
+    margin-top: 10px;
+
+}
+#aa{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.625);
+    text-align: center;
+    position: relative;
+    left: 40%;
+    font-size:x-large;
+}
+#aa:hover{
+    background-color: rgb(148, 42, 42);
+}
+#container{
+    position: relative;
+    top:500px;
+  
+}
