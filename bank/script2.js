@@ -1,7 +1,7 @@
 let password = 1234;
 let accountBalance = 10000;
 let counter = 1;
-​
+
 let sign_in = document.getElementById('signin-ui');
 let Name = document.getElementById('name');
 let transcation = document.getElementById('transcation-ui')
@@ -9,10 +9,10 @@ let incorrect = document.getElementById('incorrect-ui')
 let banned = document.getElementById('banned-ui');
 let transactionMessage = document.getElementById('transactionMessage-ui');
 let exitMessage = document.getElementById('exit-ui');
-​
-​
+
+
 let passwordInput = document.getElementById('password')//Password inputed by client
-​
+
 sign_in.addEventListener('submit', ((e) =>{
     e.preventDefault();
     //If you want to redirect to another page
@@ -40,9 +40,9 @@ sign_in.addEventListener('submit', ((e) =>{
         banned.style.display = 'block'
         counter++
     }
-​
+
 }))
-​
+
 transcation.addEventListener('submit' , ((e) =>{
     e.preventDefault();
         let inputElements = document.getElementsByName('transaction')
@@ -53,7 +53,7 @@ transcation.addEventListener('submit' , ((e) =>{
             }
         }
 }))
-​
+
 function transcationFunction(element, transaction){ // Function for performing transaction
     if (transaction == 'checkBalance'){
         sign_in.style.display = 'none'
@@ -63,7 +63,7 @@ function transcationFunction(element, transaction){ // Function for performing t
                                             `
         element.checked = false
     }
-​
+
     else if (transaction == 'withdraw'){
         sign_in.style.display = 'none'
         let withdraw = parseFloat(prompt('Enter Amount you want to withdraw'));
@@ -76,8 +76,8 @@ function transcationFunction(element, transaction){ // Function for performing t
         element.checked = false
         }
 }
-​
-​
+
+
 else if (transaction == 'deposit'){
     sign_in.style.display = 'none'
     let deposit = parseFloat(prompt('Enter Amount you want to deposit'));
@@ -90,7 +90,7 @@ else if (transaction == 'deposit'){
     element.checked = false
     }
 }
-​
+
 else if (transaction == 'sign-out'){
     sign_in.style.display = 'block'
     exitMessage.style.display = 'block'
@@ -98,5 +98,5 @@ else if (transaction == 'sign-out'){
     transactionMessage.style.display = 'none'
     element.checked = false
 }
-​
+
 }

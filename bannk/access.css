@@ -1,0 +1,303 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  background: url("access3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  padding: 1em;
+  line-height: 1.5;
+}
+h2{
+  color: blue;
+}
+input{
+  display: block;
+  width: 250px;
+  margin: 10px 13px;
+  padding: 10px;
+  font-size: 1.3em;
+  
+  outline: 2px solid #ffffff;
+  
+  
+}
+#shift{
+  position: relative;
+  right: -45em;
+  top: -12em;
+}
+input::placeholder{
+  color: navy;
+}
+#lt:hover{
+  background-color: navy;
+  color: white;
+}
+#rt:hover{
+  background-color: navy;
+  color: white;
+} 
+input[type="submit"] {
+  width: 272px;
+   color:blue
+}
+input[type="submit"]:hover{
+  background-color: navy;
+  color: white;
+}
+#clear {
+  clear: both;
+}
+
+.comm {
+  position: absolute;
+  visibility: hidden;
+}
+#login {
+  visibility: visible;
+}
+
+h3 {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+#forgot h3 {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#forgot div {
+  margin-top: 30px;
+}
+p {
+  padding: 10px 15px;
+  font-size: 1.3em;
+  color:navy;
+}
+#container{
+   border: 5px solid navy;
+   width: 20%;
+   position: relative;
+   top:-5px;
+   left: 200px;
+  }
+
+.flex {
+
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+align-items:center;
+margin: 0 auto;
+border-radius:5px;
+}
+.element-center {
+display: flex;
+flex-direction:column;
+justify-content: center;
+}
+
+.typewrite {
+  font-size: 16pt;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  margin-top: 0.3em;
+}
+
+#inputs {
+  padding: 15px;
+  position: relative;
+  right:40em;
+  top:5em
+}
+
+input,
+button {
+font-size: .85em;
+padding: .65em 1em;
+border-radius: .3em;
+outline: 0;
+}
+input {
+border: 2px solid #dcdcdc;
+margin-right: 1em;
+}
+
+button {
+  color: white;
+  background: #508abc;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+button:hover{
+  background-color:orange;
+}
+
+label {
+  font-size: 2em;
+}
+
+#btnDeposit, #btnWithdraw,#btnAccount,#btnSignout {
+  width: 8em;
+  color: white;
+}
+@media screen and (max-width: 576px){
+  
+  h2{
+    color:blue;
+  }
+  input{
+    display: block;
+    width: 100px;
+    margin: 10px 10px; 
+     padding: 2px;
+    font-size: 2em;
+    
+    outline: 2px solid #ffffff;
+    
+    
+  }
+  #shift{
+    position: relative;
+    right: -10em;
+     top:13em;
+     margin: 20px 10px; 
+     padding: 2px;
+  }
+  input::placeholder{
+    color: navy;
+  }
+  #lt:hover{
+    background-color: navy;
+    color: white;
+  }
+  #rt:hover{
+    background-color: navy;
+    color: white;
+  } 
+  input[type="submit"] {
+    width: 100px;
+     color:blue
+  }
+  input[type="submit"]:hover{
+    background-color: navy;
+    color: white;
+  }
+  #clear {
+    clear: both;
+  }
+  
+  .comm {
+    position: absolute;
+    visibility: hidden;
+  }
+  #login {
+    visibility: visible;
+  }
+  
+  h3 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  #forgot h3 {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #forgot div {
+    margin-top: 30px;
+  }
+  p {
+    padding: 10px 15px;
+    font-size: 1.3em;
+    color:navy;
+  }
+  #container{
+     border: 5px solid navy;
+     width: 20%;
+     position: relative;
+     top:-5px;
+     left: -20px;
+    }
+  
+  
+  /* .element-center {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  } */
+  
+  .typewrite {
+    font-size: 16pt;
+    margin: auto;
+    display: block;
+    /* justify-content: center; */
+  }
+  
+  h1 {
+    font-size: 5em;
+    margin: 0;
+    margin-top: 0.3em;
+  }
+  
+  #inputs {
+    padding: 15px;
+    position: relative;
+    right:10em;
+    top:30em
+  }
+  
+  input,
+  button {
+  font-size: .85em;
+  padding: .45em 1em;
+  border-radius: .3em;
+  outline: 0;
+  }
+  input {
+  border: 2px solid #dcdcdc;
+  margin-right: 1em;
+  }
+  
+  button {
+    color: white;
+    background: #508abc;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, .1);
+    cursor: pointer;
+    width: 10rem;
+  }
+  button:hover{
+    background-color:orange;
+  }
+  
+  label {
+    font-size: 2em;
+  }
+  
+  #btnDeposit, #btnWithdraw,#btnAccount,#btnSignout {
+    width: 10em;
+    color: white;
+  }
+  #acctBalanceLbl{
+    font-size: 150%;
+  }
+}
